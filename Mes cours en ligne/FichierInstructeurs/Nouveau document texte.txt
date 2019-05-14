@@ -1,0 +1,18 @@
+ bool Ok = false;
+            byte nbrPages = 0;
+            //Boucle effectuant les la saisie et la vérification du nombre de pages du livre.
+            while (!Ok)
+            {
+                Console.WriteLine();
+                Console.Write(" Quelle est le nombre de page du livre: ");
+                //Saisie de la valeur du livre
+                Ok = byte.TryParse(Console.ReadLine(), out nbrPages);
+
+                if (!Ok)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine(" Cette valeur n'est pas une valeur entière valide.");
+
+                }
+            }
+            return nbrPages;

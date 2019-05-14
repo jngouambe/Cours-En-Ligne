@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Livre
+{
+    class Program
+    {
+        //Déclaration de la structure d'un livre.
+        struct Livre
+        {
+            private string isbn;
+           //Création de la proprité ISBN.
+           public string ISBN
+            {
+                get
+                {
+                    return isbn;
+                }
+                set
+                {
+                    long chiffre;
+                    if (value.Length!=13||!long.TryParse(value,out chiffre))
+                    {
+                        throw new Exception($" Un code ISBN doit être composé de 13 caractères numériques.");
+                    }
+                    else
+                    {
+                        isbn = value;
+                    }
+                }
+            }
+        }
+
+
+        //Méthode principale de l'application.
+        static void Main(string[] args)
+        {
+            //Création des variables utilisées dans le programme.
+            Livre livre = new Livre();
+            bool reponse;
+
+            Console.WriteLine();
+         //Boucle de contrôle de la saisie du code ISBN d'un livre.
+            do
+            {
+                try
+                {
+                    //Saisie d'un code ISBN d'un livre.
+                    Console.Write(" Donnez-moi le code ISBN du livre: ");
+                    livre.ISBN = Console.ReadLine();
+                    reponse = true;
+                }
+                //Si la saisie n'est pas valide, affichage du message d'erreur.
+                catch (Exception e)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine(e.Message);
+                    reponse = false;
+                }
+               
+              
+            } while (!reponse);
+            Console.WriteLine();
+            Console.WriteLine($" ISBN:{livre.ISBN}");
+            Console.ReadKey();
+        }
+    }
+}

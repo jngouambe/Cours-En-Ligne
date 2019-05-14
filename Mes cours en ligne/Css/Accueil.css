@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+  /*background-image: url("Images/grif.jpg");*/ 
+    background-color: #5b2323;
+    opacity: .88;
+}
+#banner1
+{
+    background-color: grey;
+    width: 100%;
+    height:70px;
+}
+/*messageCorrection*/
+#messageCorrection
+{
+   
+   
+    
+   
+}
+#Liste_De_Programme,#histo_accueil,#Mise_a_jour_programme,#Mise_a_jour_cours
+{
+    font-family: 'Comic Sans MS';
+    position: relative;
+    left: 20px;
+}
+
+/*list_his*/
+#list_his li
+{
+   
+}
+#div-pied
+{
+    background-color: grey;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height:70px;
+   
+}
+#banner1 em
+{
+    font-weight:bolder;
+    font-size: xx-large;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
+}
+#connexion
+{
+    
+    width:500px;
+    height:30px;
+    float: right;
+    position: relative;
+    left:30px;
+    top: 20px;
+}
+#nav-bar
+{
+    background-color: #0ff;
+    position: relative;
+    bottom:16px;
+    width: 80%;
+    left: 10%;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS';
+}
+#nav-bar ul 
+{
+    position:relative;
+    left: 110px;
+}
+#nav-bar ul  li
+{
+   display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+    list-style: none;
+    position: relative;
+    left: 340px;
+    transition: all ease-in-out 250ms;
+}
+#nav-bar ul li a
+{
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    border: none;
+    padding-right: 10px;
+  
+}
+
+#willy
+{
+    width: 90%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+/**/
+#banner2
+{
+    text-align: center;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    bottom: 20px;
+}
+#banner2 img
+{
+    width: 100%;
+    height:400px;
+}
+#corps
+{
+    border: 1px solid black;
+    width: 80%;
+    position: relative;
+    
+    left: 10%;
+    box-shadow:30px;
+    margin-bottom: -8px;
+    bottom: 00px;
+    background-color: grey;
+    
+}
+/*tblCours_telecharger*/
+#tblCours_telecharger1
+{
+   position: relative;
+    left: 41.3%; 
+    border-collapse: collapse;
+    border: 5px double black;
+}
+#tblCours_telecharger1 th, #tblCours_telecharger1 td, #tblCours_telecharger1 tr 
+{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+#tblCours_telecharger
+{
+   position: relative;
+    left: 36%; 
+    border-collapse: collapse;
+    border: 5px double black;
+}
+#tblCours_telecharger th, #tblCours_telecharger td, #tblCours_telecharger tr 
+{
+   
+    text-align: center;
+     border: 1px solid black;
+    
+}
+
+/*tblCours_corriger*/
+#tblCours_corriger
+{
+    position: relative;
+    left: 28.5%;
+    width: 600px;
+    margin:40px;
+    border-collapse: collapse;
+    border: 5px double black;
+}
+#tblCours_corriger th, #tblCours_corriger td, #tblCours_corriger tr 
+{
+    border: 1px solid black;
+    text-align: center;
+}
+/*#tblCours_corriger input*/
+#tblCours_corriger td input[type="text"],#tblCours_corriger td select
+{
+    width:96%;
+    background-color: #0ff;
+    
+}
+#envoiprojet
+{
+    border: 5px double black;
+    border-collapse: collapse;
+    position: relative;
+    left: 35.3%;
+    margin:10px;
+}
+#envoiprojet input[type="text"],#envoiprojet select
+{
+    background-color: #0ff;
+}
+#envoiprojet input[type="submit"]
+{
+      background-color:skyblue;
+}
+/*envoiCours*/
+#envoiCours
+{
+    border: 5px double black;
+    border-collapse: collapse;
+    position: relative;
+    left: 35.3%;
+    margin:10px;
+}
+#envoiCours td input[type="text"],#envoiCours td select
+{
+      background-color: #0ff;
+}
+#envoiCours td input[type="submit"]
+{
+    background-color: skyblue;
+}
+/*input_Corriger*/
+#input_Corriger
+{
+    position: relative;
+    left: 71%;
+    bottom: 65px;
+    width: 100px;
+    background-color:skyblue;
+}
+
+#banner1 img
+{
+    width: 100px;
+    height: 100%;
+    margin-left:41px;
+}
+#erreur
+{
+    color:#0ff;
+    position: relative;
+    bottom:15px;
+}
+a #exit
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#download
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+#upload
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+}
+#para-upload
+{
+    margin-left: 30px;
+}
+#banner1 #connexion a
+{
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+#connexion p
+{padding:0px;}
+
+#connexion label
+{
+    position: relative;
+    left: 110px;
+    bottom: 10px;
+}
+/*tblCours*/
+#tblCours
+{
+    border-collapse: collapse;
+    border: 5px double black;
+    position: relative;
+    left: 37%;
+}
+#tblCours th, #tblCours td, #tblCours tr 
+{
+    border: 1px solid black;
+}
+/*Mes_Cours  et Enregistrement_cours*/
+#Mes_Cours,#Enregistrement_cours
+{
+    position: relative;
+    font-family: 'Comic Sans MS';
+    left: 20px;
+}
+
+
+
+
+/*Css pour la barre de navigation des étudiants*/
+#nav-bar1
+{
+    background-color: #0ff;
+    position: relative;
+    bottom:16px;
+    width: 80%;
+    left: 10%;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS';
+}
+#nav-bar1 #ul_enteteetudiant 
+{
+    position:relative;
+    left: -30px;
+}
+#nav-bar1 #ul_enteteetudiant  li
+{
+   display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+    list-style: none;
+    position: relative;
+    left: 340px;
+    transition: all ease-in-out 250ms;
+}
+#nav-bar1 #ul_enteteetudiant li a
+{
+    text-decoration: none;
+    padding-right: 10px;
+  
+}
+
+/*Css pour la barre de navigation des instructeurs*/
+#nav-bar2
+{
+    background-color: #0ff;
+    position: relative;
+    bottom:16px;
+    width: 80%;
+    left: 10%;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS';
+}
+#nav-bar2 #ul_enteteinstructeur 
+{
+    position:relative;
+    left: -59px;
+}
+#nav-bar2 #ul_enteteinstructeur  li
+{
+   display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+    list-style: none;
+    position: relative;
+    left: 340px;
+    transition: all ease-in-out 250ms;
+}
+#nav-bar2 #ul_enteteinstructeur li a
+{
+    text-decoration: none;
+    padding-right: 10px;
+  
+}
+
+
+
+#nav-bar ul li a:hover
+{
+    color:black;
+}
+#nav-bar1 ul li a:hover
+{
+    color:black;
+}
+#nav-bar2 ul li a:hover
+{
+    color:black;
+}
+#nav-bar ul li a::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    /*le truc pour que ça charge*/
+    
+}
+
+#corps h2{margin-left: 10px;}
+
+#corps #Historique
+{
+    margin-left: 50px;
+}
+/*tblCours_corriger*/
+#tblCours_corriger
+{
+    
+}

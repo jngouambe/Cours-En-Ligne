@@ -1,0 +1,250 @@
+body {
+}
+
+
+#div-EnteteUtilisateur
+{
+    border: 1px solid black;
+    width: 80%;
+    position: relative;
+    height:700px;
+    left: 10%;
+    box-shadow:30px;
+    position: relative;
+    bottom: 20px; 
+    background-color: grey;
+    margin-bottom:-30px;
+    margin-top: -10px;
+}
+#div-EnteteUtilisateur h1
+{
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    text-transform: uppercase;
+    color: #250101;
+   
+}
+#Profil h1
+{
+    font-family: 'Comic Sans MS';
+}
+/*Table de l'étudiant*/
+#tableProfil
+{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: 37%;
+    position: relative;
+    bottom:50px;
+    text-align: center;
+}
+#tableProfil tr,#tableProfil td,#tableProfil th
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding:0 30px 0 30px;
+}
+/*Table de l'instructeur*/
+#tblInstructeur
+{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: 37%;
+    position: relative;
+    bottom:50px;
+    text-align: center;
+}
+#tblInstructeur tr,#tblInstructeur td,#tblInstructeur th
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding:0 30px 0 30px;
+}
+/*pour les boutons modifier et deconnecter de la page profil etudiant*/
+#optionprofil
+{
+    position: relative;
+    left: 645px;
+      
+}
+#optionprofil a
+{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    color:black;
+    margin: 5px;
+    position: relative;
+    bottom: 50px;
+    background-color: skyblue;
+}
+/*pour le boutons  deconneter de la page profil de l'instructeur*/
+#optiondeconnexion
+{
+    position: relative;
+    left: 645px;
+      
+}
+#optiondeconnexion a
+{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    color:black;
+    margin: 5px;
+    position: relative;
+    bottom: 50px;
+    background-color: skyblue;
+}
+#Nom_Utilisateur_connect
+{
+    border-radius: 5px 0 0 5px;
+}
+#submit_connexion
+{
+    border-radius:0 5px 5px 0;
+    background-color: skyblue;
+}
+/*Pour la table de mise a jour de programme*/
+#MiseAJourProgramme
+{
+    border: 2px solid black;
+    position: relative;
+    left: 20%;
+    bottom:30px;
+    border-collapse: collapse;
+    width:60%;
+    height:500px;
+    background-color: #16443f;
+}
+#MiseAJourProgramme th
+{
+    border-top: 5px solid black;
+    font-size: x-large;
+}
+#MiseAJourProgramme input[type="text"], #MiseAJourProgramme select
+{
+      background-color: #0ff;
+}
+#MiseAJourProgramme input[type="submit"]
+{
+    background-color: skyblue;
+}
+
+#MiseAJourProgramme td:first-child
+{
+    color: whitesmoke;
+    position: relative;
+    left:50px;
+}
+#MiseAJourProgramme td input[type='text'],select
+{
+    width: 325px;
+    height: 30px;
+}
+#MiseAJourProgramme td input[type='submit']
+{
+    position: relative;
+    left: 180px;
+    width: 150px;
+}
+/*Pour la table de mise a jour de cours*/
+#MiseAJourCours
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width:80%;
+    background-color: #16443f;
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+    height:605px;
+    margin-top:15px;
+}
+#MiseAJourCours input[type="submit"]
+{
+    background-color: skyblue;
+}
+
+#MiseAJourCours input[type="text"],#MiseAJourCours select
+{
+    background-color: #0ff;
+}
+#MiseAJourCours th
+{
+    border-top: 5px solid black;
+    font-size: x-large;
+}
+#MiseAJourCours td:first-child
+{
+    color: whitesmoke;
+    position: relative;
+    left:70px;
+}
+#MiseAJourCours td input[type='text'],select
+{
+    width: 325px;
+    height: 30px;
+}
+#MiseAJourCours td input[type='submit']
+{
+    position: relative;
+    left: 180px;
+    width: 150px;
+}
+/*#enregistremntCours*/
+#enregistremntCours
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    background-color: #16443f;
+    width:60%;
+    height:400px;
+}
+#enregistremntCours input[type="text"],#enregistremntCours select
+{
+    background-color: #0ff;
+}
+
+#enregistremntCours td input[type='text'],select
+{
+    width: 325px;
+    height: 30px;
+}
+#enregistremntCours td input[type='text'],select
+{
+    width: 325px;
+    height: 30px;
+}
+#enregistremntCours td input[type='submit']
+{
+    width:170px;
+    position: relative;
+    left: 240px;
+    margin-left:20px;
+    background-color: skyblue;
+}
+#enregistremntCours td input[type='reset']
+{
+    width:150px;
+    position: relative;
+    left: 160px;
+    margin-left:20px;
+     background-color: skyblue;
+}
+
+#enregistremntCours th
+{
+    font-size: x-large; 
+}
+#enregistremntCours td:first-child
+{
+    position: relative;
+    left: 70px;
+    
+}

@@ -1,0 +1,14 @@
+    $obtenir_id = intval($_GET['id']);
+            
+            $id_utilisateur = $_SESSION['Id_Utilisateur'];
+             $requete_membre = $Connexion-> prepare("SELECT * FROM tbl_Utilisateurs WHERE Id_Utilisateur = ?");
+             $requete_membre -> execute(array($id_utilisateur));
+             $requete_info = $requete_membre->fetch();
+
+                $requete_Titre = $Connexion ->prepare("SELECT Titre_Programme FROM tblProgramme WHERE Code_Programme = ?");
+                $requete_Titre -> execute(array($requete_info['Code_Programme']));
+                $resultat_requete = $requete_Titre -> fetch();
+
+                //Extraction du titre du programme
+                $titreProgramme=$resultat_requete['Titre_Programme'];
+                 $code_programme = $requete_info['Code_Programme'];

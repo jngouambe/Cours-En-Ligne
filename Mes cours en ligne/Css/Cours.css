@@ -1,0 +1,52 @@
+body {
+    width:auto;
+}
+#ListeProgramme
+{
+    border: 6px double black;
+    border-collapse: collapse;
+    position: relative;
+    left: 25%;
+}
+#ListeProgramme tr,#ListeProgramme td,#ListeProgramme th
+{
+    border: 1px solid black;
+    height: 50px;
+    width:250px;
+}
+#ListeProgramme td:first-child,#ListeProgramme td:first-child+td
+{
+    text-align: center;
+}
+#Titre_Cours
+{
+    width:200px;
+}
+th
+{
+    font-size: xx-large;
+}
+#information_cours
+{
+    border: 6px double black;
+    border-collapse: collapse;
+    position: relative;
+    left: 16.5%;
+    text-align: center;
+}
+#information_cours tr,#information_cours td,#information_cours th
+{
+    border: 1px solid black;
+    height: 50px;
+    width:250px;
+    
+}
+#information_cours td:first-child,#information_cours td:first-child+td
+{
+   
+}
+#information_cours tr,#corps #information_cours td,#corps #information_cours th
+{
+    border: 1px solid black;
+  
+}

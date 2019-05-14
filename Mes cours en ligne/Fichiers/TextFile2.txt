@@ -1,0 +1,15 @@
+$titre_Cours = htmlspecialchars($_POST['titre_Cours']);
+               //requete pour aller chercher le code associe à ce cours
+               $requete_code_assoc =$Connexion -> prepare('SELECT Code_Cours FROM tblCours WHERE Titre_Cours = ?');
+               $requete_code_assoc -> execute(array($titre_Cours));
+
+               $resultat = $requete_code_assoc -> fetch();
+
+               $Code_cours = $resultat['Code_Cours'];
+              
+
+               $choix_CarteCredit = htmlspecialchars($_POST['choix_CarteCredit']);
+               $numero_CarteCredit = htmlspecialchars($_POST['numero_CarteCredit']); 
+
+               $requete_insertion = $Connexion -> prepare("INSERT INTO tbl_Utilisateurs_Cours(Id_Etudiant, Code_Cours, Note) VALUES (?,?,0)");
+               $requete_insertion -> execute(array($_SESSION['Id_Utilisateur'],$Code_cours));

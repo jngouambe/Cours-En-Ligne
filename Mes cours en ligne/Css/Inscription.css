@@ -1,0 +1,116 @@
+body {
+}
+#form
+{
+    height:650px;
+    width: 688px;
+    margin: 40px auto 10px; 
+    padding-top: 43px;
+     background: #e6e6e6;
+    opacity: 0.93;
+    border: 1px solid rgba(255,255,255,0.49);
+    -moz-border-radius: 5px;-webkit-border-radius: 5px;
+   -moz-box-shadow: 3px 4px 0px rgba(0,0,0,0.36);-webkit-box-shadow: 3px 4px 0px rgba(0,0,0,0.36);
+}
+
+#tbl_inscription
+{
+   
+    position: relative;
+    left: 20%;
+    width:60%;
+    height: 430px;
+}
+#formulaire 
+ {
+    height: auto;
+}
+#message
+{
+    position: relative;
+    left:150px;
+    color: red;
+   
+}
+#messageCorrection
+{
+    border: 2px solid black;
+}
+label
+{
+    float: left;
+}
+
+#formulaire input,#formulaire select
+{
+   background: #d2dfe1;
+   border-radius: 10px;
+   box-shadow: 3px 3px 0 #fff,inset 3px 3px 0 rgba(0,0,0,0.21);
+   font-family: Georgia, serif;
+   font-size:14px;
+   color: #756b62;
+   height: 30px; 
+}
+#formulaire input[type="text"],#formulaire input[type="password"],#formulaire input[type="email"],#formulaire select
+{
+    width: 100%;
+}
+#formulaire input[type="submit"]
+{
+    position: relative;
+    left:-70px;
+    font-family: "Lobster",Georgia,serif;
+    font-size: 20px;
+    line-height: 36px;
+    color: #756b62;
+    text-shadow: 0 1px 0 #f2f2f2;
+    float: left;
+    clear: both;
+    width: 110px;
+    padding: 0;
+    padding-bottom:5px;
+    margin: 0 15px 0 424px;
+    background: #d2dfe1;
+    border-left: 1px solid #c5d6d8;
+    border-top: 1px solid #c5d6d8;
+    box-shadow:2px 3px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+#formulaire input[type="reset"]
+{
+    position: relative;
+    left:50px;
+    bottom:30px;
+    font-family: "Lobster",Georgia,serif;
+    font-size: 20px;
+    line-height: 36px;
+    color: #756b62;
+    text-shadow: 0 1px 0 #f2f2f2;
+    float: left;
+    clear: both;
+    width:110px;
+    padding: 0;
+    padding-bottom:5px;
+    margin: 0 15px 0 424px;
+    background: #d2dfe1;
+    border-left: 1px solid #c5d6d8;
+    border-top: 1px solid #c5d6d8;
+    box-shadow:2px 3px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+#formulaire input[type="submit"]:hover,#formulaire input[type="reset"]:hover
+{
+    color: #6fa4b1;
+    margin-top: 1px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+}
+#formulaire h2
+{
+   text-align: center;
+    
+}
+#formulaire #consigne
+{
+    color: #756b62;
+}
+#consigne em{ position: relative; left:100px;}

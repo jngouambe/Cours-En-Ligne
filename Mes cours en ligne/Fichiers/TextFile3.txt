@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+   /*font-family:'Nanum Brush Script' ,sans-serif;*/
+    
+    font-weight: 300;
+}
+#Accueil #Nav-Accueil a,#Caracteristiques #Nav-Caracteristiques a,#Horoscope #Nav-Horoscope a,
+#Contact #Nav-Contact a,#Traits #Nav-Traits a
+{
+    color:#150054;
+        
+}
+#container
+{
+    font-family: Cabin Sketch;
+    width: 80%;
+    margin: 0 auto;
+}
+#logo
+{
+    float: left;
+    border-radius:20px;
+    width:200px;
+    padding: 10px 0;
+    position: relative;
+    right: 100px;   
+}
+
+header
+{
+ background-color:#b7b7b7;
+ opacity:.97;
+}
+.astro
+{
+   position: relative;
+   right:90px;
+   top: 30px;
+   font-size:x-large;
+   height: 50px;
+   color: #000000;
+    float: left;  
+}
+    
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+.navig_en
+{
+    float: right;
+}
+.navig_en .entete_ul
+{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.navig_en li
+{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 50px;
+   position: relative;
+}
+.navig_en .link_en
+{
+     text-decoration: none;
+     color: #444;
+     text-transform: uppercase;
+}
+.navig_en .link_en:hover
+{
+    color: #000;
+}
+.navig_en .link_en::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    /*le truc pour que ça charge*/
+    transition: all ease-in-out 250ms;
+}
+.navig_en .link_en:hover::before
+{
+    width: 100%;
+}
+.entete_ul li
+{
+    float: left;
+}
+.entete_ul li .entete_ul li
+{
+   float: none;
+   display: block;
+   position: relative;
+   right: 80px;
+}
+.entete_ul li .entete_ul
+{
+    display: none;
+}
+.entete_ul li:hover .entete_ul
+{
+    display: block;
+}
